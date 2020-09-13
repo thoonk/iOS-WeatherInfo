@@ -49,8 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 3
     }
     
-    // MARK: - TableView
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+S    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 0:
             return korean.count
