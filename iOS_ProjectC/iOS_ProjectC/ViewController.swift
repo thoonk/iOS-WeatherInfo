@@ -65,6 +65,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             return
         }
         
+        if let indexPath = tableView.indexPathForSelectedRow{
+            let country: Country = self.countries[indexPath.row]
+            nextController.textToSet = country.assetName
+        }
+        
     }
     
 

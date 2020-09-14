@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0814AEB9250FA82E00E144A6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0814AEB8250FA82E00E144A6 /* ThirdViewController.swift */; };
+		0814AEBB250FAAB700E144A6 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0814AEBA250FAAB700E144A6 /* CityTableViewCell.swift */; };
+		0814AEBD250FB20F00E144A6 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0814AEBC250FB20F00E144A6 /* City.swift */; };
 		0836E598250C8FB8002EEA5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0836E597250C8FB8002EEA5C /* AppDelegate.swift */; };
 		0836E59A250C8FB8002EEA5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0836E599250C8FB8002EEA5C /* SceneDelegate.swift */; };
 		0836E59C250C8FB8002EEA5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0836E59B250C8FB8002EEA5C /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0814AEB8250FA82E00E144A6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		0814AEBA250FAAB700E144A6 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		0814AEBC250FB20F00E144A6 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		0836E594250C8FB8002EEA5C /* iOS_ProjectC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_ProjectC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0836E597250C8FB8002EEA5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0836E599250C8FB8002EEA5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,9 +72,12 @@
 				0836E599250C8FB8002EEA5C /* SceneDelegate.swift */,
 				0836E59B250C8FB8002EEA5C /* ViewController.swift */,
 				0836E5AF250C9DFF002EEA5C /* SecondViewController.swift */,
+				0814AEBA250FAAB700E144A6 /* CityTableViewCell.swift */,
 				0836E59D250C8FB8002EEA5C /* Main.storyboard */,
+				0814AEB8250FA82E00E144A6 /* ThirdViewController.swift */,
 				0836E5AB250C929B002EEA5C /* CountryTableViewCell.swift */,
 				0836E5A0250C8FB9002EEA5C /* Assets.xcassets */,
+				0814AEBC250FB20F00E144A6 /* City.swift */,
 				0836E5AD250C9988002EEA5C /* Country.swift */,
 				0836E5A2250C8FB9002EEA5C /* LaunchScreen.storyboard */,
 				0836E5A5250C8FB9002EEA5C /* Info.plist */,
@@ -149,9 +158,12 @@
 			files = (
 				0836E5B0250C9DFF002EEA5C /* SecondViewController.swift in Sources */,
 				0836E5AC250C929B002EEA5C /* CountryTableViewCell.swift in Sources */,
+				0814AEBD250FB20F00E144A6 /* City.swift in Sources */,
 				0836E59C250C8FB8002EEA5C /* ViewController.swift in Sources */,
+				0814AEB9250FA82E00E144A6 /* ThirdViewController.swift in Sources */,
 				0836E598250C8FB8002EEA5C /* AppDelegate.swift in Sources */,
 				0836E5AE250C9988002EEA5C /* Country.swift in Sources */,
+				0814AEBB250FAAB700E144A6 /* CityTableViewCell.swift in Sources */,
 				0836E59A250C8FB8002EEA5C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
