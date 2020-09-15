@@ -1,5 +1,5 @@
 # IOS_BoostCourse3
-## Weather Information App.
+## Weather Information App.(iOS_ProjectC) 
 
 - I presented weather data on view by using tableView, tableViewCell, JSON Data Asset, and transfer values to other viewController for presenting detail information on other view by using navigationController.
 
