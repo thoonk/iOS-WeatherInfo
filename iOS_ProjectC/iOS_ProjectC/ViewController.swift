@@ -52,7 +52,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
@@ -61,17 +61,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             return
         }
         
-        guard let cell: UITableViewCell = sender as? UITableViewCell else{
-            return
-        }
-        
-        if let indexPath = tableView.indexPathForSelectedRow{
-            let country: Country = self.countries[indexPath.row]
-            nextController.textToSet = country.assetName
+    
+        if segue.identifier == "showCity"{
+            if let indexPath = tableView.indexPathForSelectedRow{
+                let country: Country = self.countries[indexPath.row]
+                nextController.textSetKorean = country.koreanName
+                nextController.textSetAsset = country.assetName
+            }
         }
         
     }
     
-
+    
 }
 
